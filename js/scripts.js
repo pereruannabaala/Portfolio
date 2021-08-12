@@ -1,8 +1,9 @@
-var navLinks = document.getElementById("navLinks");
+const navLinks = document.getElementById("navLinks");
 
-function displayMenu(){
-    navLinks.style.right="0";
+const showMenu = () => {
+    navLinks.style.right = "0";
 }
-function hideMenu(){
-    navLinks.style.right="-200px";
+
+const hideMenu = () => {
+    navLinks.style.right = "-200px";
 }

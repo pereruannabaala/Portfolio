@@ -36,6 +36,7 @@ nav img{
     font-size:13px;
 }
 .nav-links ul li::after{
+    content:'';
     width:0%;
     height:2px;
     background:	#FFFF00;
@@ -80,9 +81,9 @@ nav img{
     background:#FFFF00;
     transition:1s;
     }
-nav .fa{
-    display: none;
-}
+    nav .fa{
+        display: none;
+    }
 
 @media(max-width:700px){
     .text-box h1{

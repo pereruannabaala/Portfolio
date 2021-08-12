@@ -10,43 +10,53 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="/home/kali/Documents/Portfolio/js/scripts.js"></script>
-        <link rel="stylesheet" type="text/css" href="/home/kali/Documents/Portfolio/css/styles.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
     </head>
     <body>
         <section class="sub-header">
             <nav>
-             <a href="index.html"><img src="/home/kali/Documents/Portfolio/images/bull.png"></a>
+                <a href="index.html"><img src="images/bull.png"></a>
              <div class="nav-links" id="navLinks">
-              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">EDUCATION</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
                 </div>
-                <i class="fa fa-bars" onclick="displayMenu()"></i>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
                 </nav>
                 <h1>About Me</h1>
-                </div>
-                </section> 
+            </section>
 
+        
+                <!-----about-------->
+                <section class="about-me">
+                    <div class="row">
+                        <div class="about-col">
+                              <h1>Front-end Developer</h1>
+                              <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
+                              <a href="https://github.com/pereruannabaala" class="github-btn yellow-btn">Visit my Github</a>
+                        </div>
+                        <div class="about-col">
+                              <img src="images/float.jpg">
+                        </div>
+                    </div>
 
-    
        <!--------footer---------->
     
       <section class="footer">
           <h4>About Me</h4>
-          <p>I like solving problems since that is what my career is about,to solve world problems through program.I am open-minded and adapts to changes very<br>fast and I think that's what makes me a better developer.As a developer I am not afraid to try and experiment.</p> 
+          <p>I'm a front-developer from Kenya,<br>passionate about software development</p> 
           <div class="icons">
-              <i class="fa fa-facebook"></i>
+              <i class="fa fa-github"></i>
               <i class="fa fa-twitter"></i>
-              <i class="fa fa-linkedin"></i>
+              <i class="fa fa-slack"></i>
               <i class="fa fa-instagram"></i>
          </div>
       <p><i class="fa fa-users"></i>Technology is best when it brings people together.<i class="fa fa-users"></i></p>
         </section>
     </body>
-</html
+    <script src="js/scripts.js"></script>
+<html>
+   
